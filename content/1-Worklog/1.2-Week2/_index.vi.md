@@ -5,55 +5,32 @@ weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
+
 {{% notice warning %}}
 ⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
 {{% /notice %}}
 
-
 ### Mục tiêu tuần 2:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tìm hiểu IAM ở mức cơ bản để biết cách quản lý quyền truy cập.
+* Làm quen với AWS CLI và cách cấu hình môi trường làm việc.
+* Thực hành dịch vụ Amazon S3 ở mức đơn giản.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Các công việc đã thực hiện trong tuần này:
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --------- | ------------ | --------------- | -------------- |
+| 2 | - Tìm hiểu khái niệm IAM: user, group, policy và role <br> - Ghi chú nguyên tắc chỉ cấp quyền cần thiết | 27/04/2026 | 27/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - Tìm hiểu cách đăng nhập và điều hướng trong AWS Management Console <br> - Xem cách tìm kiếm dịch vụ và kiểm tra region | 28/04/2026 | 28/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Cài đặt và cấu hình AWS CLI <br> - Tìm hiểu các thông tin cấu hình cơ bản như access key, secret key và default region | 29/04/2026 | 29/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Tìm hiểu Amazon S3: bucket, object và storage class cơ bản <br> - Thực hành tạo bucket và tải file lên S3 | 30/04/2026 | 30/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | - Ôn lại IAM, AWS CLI và S3 <br> - Ghi chú các lỗi thường gặp khi thao tác với quyền truy cập và tên bucket | 01/05/2026 | 01/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Kết quả đạt được tuần 2:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Hiểu IAM dùng để quản lý danh tính và quyền truy cập trong AWS.
+* Biết các khái niệm cơ bản gồm user, group, policy và role.
+* Biết cách sử dụng AWS Management Console để tìm và mở dịch vụ.
+* Cấu hình được AWS CLI ở mức cơ bản và hiểu vai trò của region mặc định.
+* Tạo được S3 bucket, tải file lên bucket và xem lại file đã upload.
+* Nhận biết được một số lưu ý khi đặt tên bucket và cấp quyền truy cập.
