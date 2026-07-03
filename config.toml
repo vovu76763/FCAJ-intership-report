@@ -1,4 +1,4 @@
-baseURL = "https://vovu76763.github.io/FCAJ-intership-report/"
+baseURL = "http://localhost:1313/"
 relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
