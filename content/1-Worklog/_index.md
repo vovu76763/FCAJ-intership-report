@@ -28,8 +28,8 @@ In this Worklog section, I record my learning and hands-on practice during the 1
 
 **Week 9:** [Learn basic AWS DevOps & Automation and CI/CD](1.9-week9/)
 
-**Week 10:** [Start CloudDoc, define frontend role, and draft the architecture diagram](1.10-week10/)
+**Week 10:** [Start CloudDoc, define frontend role, and finalize the architecture diagram](1.10-week10/)
 
-**Week 11:** [Implement frontend screens and update the CloudDoc diagram](1.11-week11/)
+**Week 11:** [Implement frontend screens and hand off to the backend/cloud team](1.11-week11/)
 
-**Week 12:** [Finalize frontend, architecture diagram, demo, and internship summary](1.12-week12/)
+**Week 12:** [Finalize frontend, prepare demo, and summarize the internship](1.12-week12/)

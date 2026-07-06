@@ -28,8 +28,8 @@ Trong phần Worklog, tôi ghi lại quá trình học tập và thực hành tr
 
 **Tuần 9:** [Làm quen DevOps & Automation và CI/CD cơ bản trên AWS](1.9-week9/)
 
-**Tuần 10:** [Khởi động CloudDoc, xác định vai trò frontend và vẽ sơ đồ kiến trúc](1.10-week10/)
+**Tuần 10:** [Khởi động CloudDoc, xác định vai trò frontend và hoàn thiện sơ đồ kiến trúc](1.10-week10/)
 
-**Tuần 11:** [Triển khai giao diện frontend và cập nhật sơ đồ CloudDoc](1.11-week11/)
+**Tuần 11:** [Triển khai giao diện frontend và bàn giao cho nhóm backend/cloud](1.11-week11/)
 
-**Tuần 12:** [Hoàn thiện frontend, sơ đồ kiến trúc, demo và tổng kết thực tập](1.12-week12/)
+**Tuần 12:** [Hoàn thiện frontend, chuẩn bị demo và tổng kết thực tập](1.12-week12/)
