@@ -1,32 +1,31 @@
 ---
 title: "Worklog Tuần 3"
 date: 2024-01-01
-weight: 1
+weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
 ### Mục tiêu tuần 3:
 
-* Tìm hiểu Amazon EC2 ở mức cơ bản.
-* Nắm các khái niệm nền tảng của VPC để hiểu môi trường mạng khi chạy EC2.
-* Thực hành tạo máy chủ EC2 đơn giản và kết nối vào instance.
+* Củng cố kiến thức IAM và AWS CLI đã học ở tuần trước.
+* Thực hành Amazon S3 ở mức cơ bản.
+* Làm quen với thao tác tạo, kiểm tra và dọn dẹp tài nguyên AWS.
 
 ### Các công việc đã thực hiện trong tuần này:
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Tìm hiểu Amazon EC2 và vai trò của máy chủ ảo trên cloud <br> - Ghi chú các khái niệm AMI, instance type và key pair | 04/05/2026 | 04/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - Tìm hiểu EBS ở mức cơ bản <br> - Phân biệt storage gắn với EC2 và lưu trữ object trên S3 | 05/05/2026 | 05/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Tìm hiểu VPC cơ bản: subnet, route table và security group <br> - Ghi chú security group như lớp kiểm soát inbound/outbound cho EC2 | 06/05/2026 | 06/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - Thực hành tạo EC2 instance đơn giản <br> - Cấu hình key pair và security group cho phép kết nối SSH | 07/05/2026 | 07/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 6 | - Kết nối vào EC2 instance bằng SSH hoặc EC2 Instance Connect <br> - Kiểm tra thông tin instance và dọn dẹp tài nguyên sau khi thực hành | 08/05/2026 | 08/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - Ôn lại IAM user, group, policy và role <br> - Ghi chú các quyền thường dùng khi thực hành với S3 | 04/05/2026 | 04/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - Ôn lại AWS CLI <br> - Thực hành kiểm tra cấu hình CLI, region mặc định và danh sách dịch vụ cơ bản | 05/05/2026 | 05/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Tìm hiểu Amazon S3: bucket, object, folder prefix và region <br> - Thực hành tạo bucket S3 đơn giản | 06/05/2026 | 06/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Thực hành tải file lên S3 và kiểm tra object đã upload <br> - Tìm hiểu lưu ý về tên bucket và quyền truy cập | 07/05/2026 | 07/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | - Dọn dẹp bucket/file đã dùng để thực hành <br> - Tổng hợp lỗi thường gặp khi dùng IAM, CLI và S3 | 08/05/2026 | 08/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Kết quả đạt được tuần 3:
 
-* Hiểu Amazon EC2 là dịch vụ dùng để tạo và quản lý máy chủ ảo trên AWS.
-* Nắm được các khái niệm cơ bản như AMI, instance type, key pair, EBS và security group.
-* Biết VPC là môi trường mạng riêng để triển khai tài nguyên AWS.
-* Tạo được EC2 instance đơn giản phục vụ mục đích thực hành.
-* Kết nối được vào EC2 instance và kiểm tra thông tin cơ bản.
-* Biết dừng hoặc xóa tài nguyên sau khi thực hành để tránh phát sinh chi phí.
+* Hiểu rõ hơn vai trò của IAM khi thao tác với tài nguyên AWS.
+* Sử dụng được AWS CLI cho một số bước kiểm tra cấu hình cơ bản.
+* Tạo được S3 bucket và tải file lên bucket.
+* Biết một số lưu ý khi đặt tên bucket, chọn region và kiểm soát quyền truy cập.
+* Biết kiểm tra lỗi cơ bản và dọn dẹp tài nguyên sau khi thực hành.

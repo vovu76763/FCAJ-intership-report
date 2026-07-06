@@ -5,40 +5,36 @@ weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
->Tại đây bạn có thể tự do đóng góp ý kiến cá nhân về những trải nghiệm khi tham gia chương trình First Cloud AI Journey, giúp team FCAJ cải thiện những vấn đề còn thiếu sót dựa trên các hạng mục sau:
+Trong quá trình tham gia chương trình First Cloud Journey, tôi có cơ hội tiếp cận môi trường học tập và thực hành khá thực tế. Nội dung chương trình giúp tôi từng bước làm quen với AWS, từ các kiến thức nền tảng như tài khoản AWS, IAM, EC2, S3, RDS, CloudWatch cho đến các khái niệm liên quan đến Docker, DevOps và triển khai dự án nhóm.
 
 ### Đánh giá chung
 
-**1. Môi trường làm việc**  
-Môi trường làm việc rất thân thiện và cởi mở. Các thành viên trong FCAJ luôn sẵn sàng hỗ trợ khi mình gặp khó khăn, kể cả ngoài giờ làm việc. Không gian làm việc gọn gàng, thoải mái, giúp mình tập trung tốt hơn. Tuy nhiên, mình nghĩ có thể bổ sung thêm một số buổi giao lưu hoặc team bonding để mọi người hiểu nhau hơn.
+**1. Môi trường học tập và thực hành**  
+Môi trường học tập thân thiện, cởi mở và phù hợp với sinh viên mới bắt đầu tiếp cận cloud. Các nội dung được chia theo từng giai đoạn nên tôi dễ theo dõi tiến độ, ghi chú lại phần đã học và tự kiểm tra lại sau mỗi tuần.
 
-**2. Sự hỗ trợ của mentor / team admin**  
-Mentor hướng dẫn rất chi tiết, giải thích rõ ràng khi mình chưa hiểu và luôn khuyến khích mình đặt câu hỏi. Team admin hỗ trợ các thủ tục, tài liệu và tạo điều kiện để mình làm việc thuận lợi. Mình đánh giá cao việc mentor cho phép mình thử và tự xử lý vấn đề thay vì chỉ đưa đáp án.
+**2. Sự hỗ trợ từ mentor và cộng đồng**  
+Mentor và các thành viên trong cộng đồng FCAJ hỗ trợ khá nhiệt tình khi tôi gặp khó khăn trong quá trình học hoặc thực hành. Việc được định hướng cách tự tìm lỗi, đọc tài liệu và thử lại giúp tôi chủ động hơn thay vì chỉ chờ đáp án có sẵn.
 
-**3. Sự phù hợp giữa công việc và chuyên ngành học**  
-Công việc mình được giao phù hợp với kiến thức mình đã học ở trường, đồng thời mở rộng thêm những mảng mới mà mình chưa từng được tiếp cận. Nhờ vậy, mình vừa củng cố kiến thức nền tảng, vừa học thêm kỹ năng thực tế.
+**3. Mức độ phù hợp với chuyên ngành**  
+Chương trình phù hợp với ngành Công nghệ thông tin vì các nội dung như cloud, triển khai ứng dụng, database, Docker và DevOps đều liên quan trực tiếp đến công việc lập trình. Đặc biệt, khi tham gia dự án CloudDoc, tôi có cơ hội áp dụng phần frontend và cách trình bày sơ đồ kiến trúc vào một bài làm nhóm thực tế.
 
-**4. Cơ hội học hỏi & phát triển kỹ năng**  
-Trong quá trình thực tập, mình học được nhiều kỹ năng mới như sử dụng công cụ quản lý dự án, kỹ năng làm việc nhóm, và cả cách giao tiếp chuyên nghiệp trong môi trường công ty. Mentor cũng chia sẻ nhiều kinh nghiệm thực tế giúp mình định hướng tốt hơn cho sự nghiệp.
+**4. Cơ hội phát triển kỹ năng**  
+Ngoài kiến thức AWS, tôi cải thiện thêm kỹ năng làm việc nhóm, ghi chép worklog, trình bày tiến độ và phân chia công việc. Trong dự án CloudDoc, tôi phụ trách phần frontend và vẽ sơ đồ kiến trúc, qua đó hiểu rõ hơn cách giao diện người dùng liên kết với backend, database và hạ tầng cloud.
 
-**5. Văn hóa & tinh thần đồng đội**  
-Văn hóa công ty rất tích cực: mọi người tôn trọng lẫn nhau, làm việc nghiêm túc nhưng vẫn vui vẻ. Khi có dự án gấp, mọi người cùng nhau cố gắng, hỗ trợ không phân biệt vị trí. Điều này giúp mình cảm thấy mình là một phần của tập thể, dù chỉ là thực tập sinh.
+**5. Văn hóa và tinh thần làm việc nhóm**  
+Không khí làm việc nhóm khá tích cực. Các thành viên có thể trao đổi công việc, chia sẻ vấn đề đang gặp và hỗ trợ nhau khi cần. Điều này giúp tôi thấy rõ hơn vai trò của giao tiếp trong một dự án kỹ thuật, nhất là khi frontend cần bàn giao cho nhóm backend/cloud tích hợp.
 
-**6. Chính sách / phúc lợi cho thực tập sinh**  
-Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về thời gian linh hoạt khi cần thiết. Ngoài ra, việc được tham gia các buổi đào tạo nội bộ là một điểm cộng lớn.
+### Điều hài lòng nhất
 
+Điều tôi hài lòng nhất là chương trình giúp tôi có lộ trình rõ ràng để học AWS từ cơ bản đến thực hành. Tôi không chỉ đọc lý thuyết mà còn được làm các bài thực hành nhỏ, sau đó áp dụng vào dự án nhóm CloudDoc.
 
-### Một số câu hỏi khác
-- Điều bạn **hài lòng nhất** trong thời gian thực tập?  
-- Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?  
-- Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?  
+### Đề xuất cải thiện
 
+* Có thể bổ sung thêm checklist ngắn cho từng tuần để học viên dễ tự kiểm tra mình đã hoàn thành đủ nội dung chưa.
+* Với dự án nhóm, nên có thêm mốc review giữa tuần để các phần frontend, backend và cloud khớp với nhau sớm hơn.
+* Có thể cung cấp thêm ví dụ về cách viết báo cáo/worklog hoàn chỉnh nhưng nên nhấn mạnh việc học viên cần viết lại theo trải nghiệm cá nhân.
 
-### Đề xuất & mong muốn
-- Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?  
-- Bạn có muốn tiếp tục chương trình này trong tương lai?
-- Góp ý khác (tự do chia sẻ):
+### Tổng kết
+
+Nhìn chung, tôi đánh giá chương trình là hữu ích và phù hợp với sinh viên muốn bắt đầu học cloud. Sau quá trình thực tập, tôi hiểu hơn về các dịch vụ AWS cơ bản, có thêm kinh nghiệm làm việc nhóm và biết cách trình bày phần đóng góp cá nhân trong một dự án thực tế.

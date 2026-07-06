@@ -1,59 +1,31 @@
 ---
 title: "Worklog Tuần 9"
 date: 2024-01-01
-weight: 1
+weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 9:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tìm hiểu track DevOps & Automation trong chương trình FCJ Workforce.
+* Nắm khái niệm CI/CD pipeline trên AWS với CodePipeline, CodeBuild và CodeDeploy ở mức cơ bản.
+* Làm quen các khái niệm Infrastructure as Code, monitoring và chiến lược triển khai Blue/Green, Canary.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Các công việc đã thực hiện trong tuần này:
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --------- | ------------ | --------------- | -------------- |
+| 2 | - Đọc nội dung track DevOps & Automation trong FCJ Workforce <br> - Ghi chú các nhóm kiến thức chính: CI/CD, IaC, container orchestration và monitoring | 15/06/2026 | 15/06/2026 | <https://cloudjourney.awsstudygroup.com/vi/8-fcjworkforce/> |
+| 3 | - Tìm hiểu vai trò của CodePipeline, CodeBuild và CodeDeploy trong CI/CD trên AWS <br> - Phác thảo luồng pipeline cơ bản: Source, Build, Deploy | 16/06/2026 | 16/06/2026 | <https://cloudjourney.awsstudygroup.com/vi/8-fcjworkforce/> |
+| 4 | - Tìm hiểu Infrastructure as Code với CloudFormation/CDK ở mức tổng quan <br> - Ghi chú lợi ích của việc quản lý hạ tầng bằng template/code | 17/06/2026 | 17/06/2026 | <https://cloudjourney.awsstudygroup.com/vi/8-fcjworkforce/> |
+| 5 | - Tìm hiểu monitoring và observability trong DevOps <br> - Ghi chú khái niệm Blue/Green deployment và Canary deployment | 18/06/2026 | 18/06/2026 | <https://cloudjourney.awsstudygroup.com/vi/8-fcjworkforce/> |
+| 6 | - Tổng hợp ghi chú tuần 9 về DevOps & Automation <br> - Liên hệ các kiến thức CI/CD, monitoring và IaC với việc triển khai dự án nhóm sau này | 19/06/2026 | 19/06/2026 | <https://cloudjourney.awsstudygroup.com/vi/8-fcjworkforce/> |
 
 ### Kết quả đạt được tuần 9:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Hiểu được vai trò của DevOps & Automation trong lộ trình FCJ Workforce.
+* Nắm được luồng CI/CD cơ bản trên AWS gồm Source, Build và Deploy.
+* Biết vai trò tổng quan của CodePipeline, CodeBuild và CodeDeploy.
+* Hiểu mục đích của Infrastructure as Code trong quản lý hạ tầng.
+* Nhận biết được ý nghĩa của monitoring, Blue/Green deployment và Canary deployment.

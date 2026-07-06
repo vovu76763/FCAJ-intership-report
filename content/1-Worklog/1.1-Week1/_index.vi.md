@@ -8,25 +8,25 @@ pre: " <b> 1.1. </b> "
 
 ### Mục tiêu tuần 1:
 
-* Làm quen với chương trình First Cloud Journey và cách học theo tài liệu AWS Study Group.
-* Nắm tổng quan về điện toán đám mây và các nhóm dịch vụ AWS cơ bản.
-* Biết cách tạo tài khoản AWS Free Tier và thiết lập cảnh báo chi phí cơ bản.
+* Tìm hiểu chương trình First Cloud Journey và yêu cầu trong quá trình thực tập.
+* Đọc nội quy, quy định, cách báo cáo tiến độ và cách viết worklog.
+* Chuẩn bị kiến thức ban đầu trước khi tạo tài khoản AWS và thực hành workshop.
 
 ### Các công việc đã thực hiện trong tuần này:
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --------- | ------------ | --------------- | -------------- |
-| 6 | - Làm quen với chương trình thực tập và định hướng nội dung học tập <br> - Đọc tổng quan trang Cloud Journey | 17/04/2026 | 17/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 2 | - Tìm hiểu AWS là gì và lợi ích của cloud computing <br> - Ghi chú các nhóm dịch vụ chính: Compute, Storage, Networking, Database | 20/04/2026 | 20/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - Tìm hiểu cách tạo AWS account và khái niệm AWS Free Tier <br> - Xem các bước đăng nhập AWS Management Console | 21/04/2026 | 21/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Tìm hiểu AWS Budgets ở mức cơ bản <br> - Ghi chú cách đặt cảnh báo chi phí để tránh phát sinh ngoài ý muốn | 22/04/2026 | 22/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - Ôn lại nội dung đã học <br> - Tổng hợp ghi chú và chuẩn bị cho tuần học về IAM, CLI và S3 | 23/04/2026 | 24/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - Làm quen với chương trình First Cloud Journey <br> - Tìm hiểu mục tiêu, lộ trình học và yêu cầu trong thời gian thực tập | 20/04/2026 | 20/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - Đọc nội quy, quy định và các lưu ý khi tham gia chương trình <br> - Ghi chú cách báo cáo tiến độ và cách viết worklog hằng tuần | 21/04/2026 | 21/04/2026 | <https://hcm-rules.awsfcaj.com/> |
+| 4 | - Tìm hiểu trước quy trình tạo tài khoản AWS Free Tier <br> - Ghi chú các thông tin cần chuẩn bị khi đăng ký tài khoản | 22/04/2026 | 22/04/2026 |  |
+| 5 | - Tìm hiểu cách bảo vệ tài khoản AWS bằng MFA <br> - Ghi chú cách theo dõi tài liệu workshop và lưu lại lỗi khi thực hành | 23/04/2026 | 23/04/2026 |  |
+| 6 | - Xem video và làm quen công cụ draw.io để phác thảo sơ đồ kiến trúc đơn giản <br> - Sắp xếp ghi chú tuần 1 thành nội dung worklog cá nhân | 24/04/2026 | 24/04/2026 | <https://www.youtube.com/watch?v=l8isyDe-GwY&t=1008s> |
 
 ### Kết quả đạt được tuần 1:
 
-* Hiểu mục tiêu của chương trình First Cloud Journey và cách sử dụng tài liệu AWS Study Group để tự học.
-* Nắm được khái niệm cơ bản về cloud computing và vai trò của AWS.
-* Phân biệt được một số nhóm dịch vụ AWS cơ bản như Compute, Storage, Networking và Database.
-* Biết các bước cơ bản để tạo tài khoản AWS Free Tier.
-* Hiểu lý do cần thiết lập AWS Budgets để kiểm soát chi phí trong quá trình thực hành.
-* Rèn luyện thói quen ghi chú lại nội dung học và các thuật ngữ mới.
+* Hiểu mục tiêu của chương trình First Cloud Journey và lộ trình học tập ban đầu.
+* Nắm được nội quy, cách thức làm việc và cách báo cáo tiến độ.
+* Biết các bước chuẩn bị trước khi tạo tài khoản AWS Free Tier.
+* Hiểu lý do cần bật MFA để bảo mật tài khoản AWS.
+* Biết cách theo dõi tài liệu workshop và ghi chú lỗi khi thực hành.
+* Biết công dụng của draw.io trong việc vẽ sơ đồ kiến trúc AWS.

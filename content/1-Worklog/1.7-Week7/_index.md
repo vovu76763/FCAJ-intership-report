@@ -1,57 +1,31 @@
 ---
 title: "Week 7 Worklog"
 date: 2024-01-01
-weight: 1
+weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 7 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Reinforce IAM knowledge and the least privilege principle.
+* Learn IAM Role for EC2 to avoid using Access Keys directly.
+* Get familiar with CloudWatch for basic AWS resource monitoring.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks completed this week:
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | ---- | ---------- | --------------- | ------------------ |
+| Mon | - Reviewed IAM user, group, role, and policy <br> - Took notes on least privilege when granting permissions | 01/06/2026 | 01/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Tue | - Learned IAM Role for EC2 <br> - Attached a simple role to EC2 to access AWS resources without storing Access Keys on the server | 02/06/2026 | 02/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Wed | - Checked permissions using AWS CLI on EC2 <br> - Took notes on common issues when policies did not grant enough permissions | 03/06/2026 | 03/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thu | - Learned CloudWatch Metrics and Logs at a basic level <br> - Viewed CPU and network metrics for an EC2 instance | 04/06/2026 | 04/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Fri | - Created a simple CloudWatch Alarm for EC2 <br> - Summarized notes on account security and resource monitoring | 05/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Week 7 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Better understood how to use IAM Roles instead of direct Access Keys.
+* Checked current identity/permissions using AWS CLI.
+* Read basic EC2 metrics on CloudWatch.
+* Created a simple alarm for resource monitoring.
+* Reinforced the habit of least privilege and monitoring cost/security.

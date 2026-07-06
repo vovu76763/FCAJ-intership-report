@@ -6,42 +6,35 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
-
-> Here, you can freely share your personal opinions about your experience participating in the First Cloud AI Journey program. This will help the FCAJ team improve any shortcomings based on the following aspects:
+During my time in the First Cloud Journey program, I had the opportunity to learn in a practical environment and apply what I studied step by step. The program helped me become familiar with AWS fundamentals such as AWS accounts, IAM, EC2, S3, RDS, and CloudWatch, as well as related topics such as Docker, DevOps, and group project deployment.
 
 ### Overall Evaluation
 
-**1. Working Environment**  
-The working environment is very friendly and open. FCAJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think it would be nice to have more social gatherings or team bonding activities to strengthen relationships.
+**1. Learning and Practice Environment**  
+The learning environment was friendly, open, and suitable for students who are new to cloud computing. The content was divided into clear stages, which made it easier for me to track progress, take weekly notes, and review what I had learned.
 
-**2. Support from Mentor / Team Admin**  
-The mentor provides very detailed guidance, explains clearly when I don’t understand, and always encourages me to ask questions. The admin team supports administrative tasks, provides necessary documents, and creates favorable conditions for me to work effectively. I especially appreciate that the mentor allows me to try and solve problems myself instead of just giving the answer.
+**2. Support from Mentors and Community**  
+The mentors and FCAJ community members were supportive whenever I had difficulties during learning or practice. I especially appreciated being guided to debug, read documentation, and retry by myself, which helped me become more proactive.
 
-**3. Relevance of Work to Academic Major**  
-The tasks I was assigned align well with the knowledge I learned at university, while also introducing me to new areas I had never encountered before. This allowed me to both strengthen my foundational knowledge and gain practical skills.
+**3. Relevance to My Major**  
+The program matched my Information Technology major well because topics such as cloud, application deployment, databases, Docker, and DevOps are directly related to software development work. In the CloudDoc group project, I was able to apply frontend development and architecture diagram design in a practical team context.
 
-**4. Learning & Skill Development Opportunities**  
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared valuable real-world experiences that helped me better plan my career path.
+**4. Skill Development Opportunities**  
+Besides AWS knowledge, I improved my teamwork, worklog writing, progress reporting, and task coordination skills. In the CloudDoc project, I was responsible for the frontend and architecture diagram, which helped me better understand how the user interface connects with the backend, database, and cloud infrastructure.
 
-**5. Company Culture & Team Spirit**  
-The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
+**5. Teamwork Culture**  
+The team atmosphere was positive. Members could discuss tasks, share issues, and support each other when needed. This helped me understand the importance of communication in a technical project, especially when the frontend needed to be handed off for backend/cloud integration.
 
-**6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
+### Most Satisfying Point
 
----
+The thing I was most satisfied with was that the program gave me a clear path to learn AWS from basic concepts to hands-on practice. I did not only read theory, but also practiced smaller labs and then applied the knowledge to the CloudDoc group project.
 
-### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
+### Suggestions for Improvement
 
----
+* Add a short checklist for each week so students can quickly verify whether they have completed the required tasks.
+* For group projects, add a mid-week review point so frontend, backend, and cloud parts can align earlier.
+* Provide examples of complete reports/worklogs, while still reminding students to rewrite them based on their own experience.
 
-### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+### Summary
+
+Overall, I found the program useful and suitable for students who want to start learning cloud computing. After the internship, I understood more about basic AWS services, gained teamwork experience, and learned how to present my personal contribution in a practical project.
