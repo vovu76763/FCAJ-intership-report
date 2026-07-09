@@ -6,17 +6,13 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-{{% notice warning %}}  
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 Tại đây sẽ là phần liệt kê, giới thiệu các blogs mà các bạn đã đăng trên [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). Ví dụ:
 
-###  [Blog 1 - SESSION POLICIES TRONG AMAZON EKS POD IDENTITY](3.1-Blog1/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+###  [Blog 1 - XÂY DỰNG ỨNG DỤNG OFFLINE-FIRST VỚI AWS AMPLIFY, TANSTACK QUERY, APPSYNC VÀ MONGODB ATLAS](3.1-Blog1/)
+Blog này giới thiệu cách xây dựng ứng dụng theo mô hình Offline-First kết hợp Optimistic UI bằng cách sử dụng AWS Amplify Gen 2, AWS AppSync, TanStack Query và MongoDB Atlas, giúp ứng dụng phản hồi nhanh và vẫn đồng bộ dữ liệu chính xác khi mạng chập chờn hoặc mất kết nối.
 
-###  [Blog 2 - ...](3.2-Blog2/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+###  [Blog 2 - NHÚNG TRỢ LÝ GENAI VÀO ỨNG DỤNG NỘI BỘ VỚI AWS AMPLIFY, CDK VÀ AMAZON Q BUSINESS](3.2-Blog2/)
+Blog này hướng dẫn cách nhúng trợ lý AI hỏi-đáp dựa trên tài liệu nội bộ vào ứng dụng web bằng Amazon Q Business, kết hợp AWS Amplify Gen 2 và AWS CDK để quản lý hạ tầng, xác thực và lập chỉ mục dữ liệu từ Amazon S3.
 
-###  [Blog 3 - ...](3.3-Blog3/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+###  [Blog 3 - TÍCH HỢP IAM COMPUTE ROLES CHO ỨNG DỤNG SERVER-SIDE RENDERING TRÊN AWS AMPLIFY HOSTING](3.3-Blog3/)
+Blog này giới thiệu tính năng IAM Compute Roles trên AWS Amplify Hosting, cho phép ứng dụng SSR (Next.js, Nuxt...) truy cập an toàn các dịch vụ AWS như S3, RDS, DynamoDB, Secrets Manager thông qua quyền tạm thời mà không cần lưu Access Key/Secret Key trong mã nguồn.

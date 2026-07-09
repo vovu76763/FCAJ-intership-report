@@ -28,8 +28,21 @@ To objectively reflect on my internship period, I would like to evaluate myself 
 | 11  | **Contribution to project/team**    | Work effectiveness, innovative ideas, recognition from the team                                  | ✅    | ☐    | ☐       |
 | 12  | **Overall**                         | General evaluation of the entire internship period                                               | ✅    | ☐    | ☐       |
 
+### Strengths
+
+* Strong sense of responsibility, always completing assigned tasks on time and with quality  
+* Effective teamwork, actively supporting teammates and contributing to shared progress on the CloudDoc project  
+* Professional conduct, maintaining respect for colleagues, mentors, and the working environment  
+* Positive contribution to the project through frontend implementation work and AWS-oriented system thinking
+
 ### Needs Improvement
 
 * Strengthen discipline and strictly comply with the rules and regulations of the company or any organization  
 * Improve problem-solving thinking  
 * Enhance communication skills in both daily interactions and professional contexts, including handling situations effectively
+
+### Development Direction
+
+After this internship, I plan to continue deepening my knowledge of AWS services, DevOps practices, and system design so that I can move from a frontend-focused contributor to someone capable of taking ownership of a feature end to end. I also intend to work on the points raised above, especially problem-solving thinking and communication, since these are essential for taking on more responsibility in future projects.
+
+Overall, this internship gave me a realistic view of how a product is built and operated in practice, not just how it looks on the interface. It reinforced the importance of teamwork, discipline, and continuous learning, and I consider it a solid foundation for my next steps as a software engineer.

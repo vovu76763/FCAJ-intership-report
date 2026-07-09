@@ -8,24 +8,23 @@ pre: " <b> 1.10. </b> "
 
 ### Week 10 Objectives:
 
-* Start the CloudDoc group project.
-* Clarify my individual scope: frontend implementation and finalizing the architecture diagram.
-* Analyze required screens and draft the initial user interface flow.
+* Implement the main CloudDoc frontend screens.
+* Test the interface and user flow with sample data.
+* Complete the frontend during week 10 and prepare it for handoff.
 
 ### Tasks completed this week:
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ---- | ---------- | --------------- | ------------------ |
-| Mon | - Held a team meeting to confirm the CloudDoc topic <br> - Defined my personal role: frontend and architecture diagram | 22/06/2026 | 22/06/2026 |  |
-| Tue | - Analyzed required frontend screens: home page, document upload, document list, and search <br> - Took notes on the basic user flow | 23/06/2026 | 23/06/2026 |  |
-| Wed | - Created the CloudDoc architecture diagram using draw.io <br> - Represented the main parts: frontend, backend/API, file storage, and database | 24/06/2026 | 24/06/2026 |  |
-| Thu | - Finalized the CloudDoc architecture diagram after discussion with the team <br> - Confirmed the connection flow between frontend, backend/API, file storage, and database | 25/06/2026 | 25/06/2026 |  |
-| Fri | - Drafted the UI layout and frontend components to implement <br> - Reviewed notes and prepared for frontend implementation in the following week | 26/06/2026 | 26/06/2026 |  |
+| Mon | - Set up the frontend environment for CloudDoc <br> - Prepared the folder structure, main layout, and initial components | 22/06/2026 | 22/06/2026 |  |
+| Tue | - Built the home page and document upload interface <br> - Added the file selector, upload button, and processing status | 23/06/2026 | 23/06/2026 |  |
+| Wed | - Built the document list interface <br> - Added basic document search and filtering | 24/06/2026 | 24/06/2026 |  |
+| Thu | - Connected the screens and tested the user flow with sample data <br> - Adjusted the layout and display for basic screen sizes | 25/06/2026 | 25/06/2026 |  |
+| Fri | - Completed the frontend screens and components <br> - Rechecked the interface, fixed display issues, and prepared the handoff | 26/06/2026 | 26/06/2026 |  |
 
 ### Week 10 Achievements:
 
-* Defined the main scope and goals of the CloudDoc project.
-* Clarified my personal responsibility for frontend and architecture diagram work.
-* Completed the CloudDoc architecture diagram in week 10.
-* Identified the frontend screens and components to implement.
-* Understood the basic user flow of the system.
+* Completed the main CloudDoc frontend screens during week 10.
+* Built the document upload, list, and basic search interfaces.
+* Tested the interface flow with sample data.
+* Completed the frontend to a handoff-ready state for backend/cloud integration.

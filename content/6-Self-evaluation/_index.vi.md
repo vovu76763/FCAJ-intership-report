@@ -29,8 +29,21 @@ Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân t
 | 11  | **Đóng góp vào dự án/tổ chức**      | Hiệu quả công việc, sáng kiến cải tiến, ghi nhận từ team                                         | ✅   | ☐   | ☐          |
 | 12  | **Tổng thể**                        | Đánh giá chung về toàn bộ quá trình thực tập                                                     | ✅   | ☐   | ☐          |
 
+### Điểm mạnh
+
+* Tinh thần trách nhiệm cao, luôn hoàn thành công việc được giao đúng hạn và đảm bảo chất lượng  
+* Làm việc nhóm hiệu quả, tích cực hỗ trợ đồng nghiệp và đóng góp vào tiến độ chung của dự án CloudDoc  
+* Ứng xử chuyên nghiệp, giữ sự tôn trọng với đồng nghiệp, mentor và môi trường làm việc  
+* Có đóng góp tích cực cho dự án thông qua phần triển khai frontend và tư duy hệ thống theo định hướng AWS
+
 ### Cần cải thiện
 
 * Nâng cao tính kỹ luật, chấp hành nghiêm chỉnh nội quy của công ty hoặc bất kỳ trong một tổ chức nào
 * Cải thiện trong cách tư duy giải quyết vấn đề
 * Học cách giao tiếp tốt hơn trong giao tiếp hằng ngày và trong công việc, xử lý tình huống
+
+### Định hướng phát triển
+
+Sau kỳ thực tập này, tôi dự định tiếp tục trau dồi kiến thức về các dịch vụ AWS, thực hành DevOps và thiết kế hệ thống để có thể chuyển dần từ vai trò tập trung ở frontend sang khả năng đảm nhận một tính năng hoàn chỉnh từ đầu đến cuối. Tôi cũng sẽ tập trung khắc phục các điểm còn hạn chế đã nêu trên, đặc biệt là tư duy giải quyết vấn đề và kỹ năng giao tiếp, vì đây là những yếu tố quan trọng để đảm nhận nhiều trách nhiệm hơn trong các dự án sắp tới.
+
+Nhìn chung, kỳ thực tập đã giúp tôi có cái nhìn thực tế hơn về cách một sản phẩm được xây dựng và vận hành, không chỉ dừng lại ở phần giao diện. Đây cũng là dịp để tôi nhận ra tầm quan trọng của làm việc nhóm, tính kỷ luật và việc học hỏi liên tục, và tôi xem đây là nền tảng vững chắc cho những bước tiếp theo trên con đường trở thành một kỹ sư phần mềm.

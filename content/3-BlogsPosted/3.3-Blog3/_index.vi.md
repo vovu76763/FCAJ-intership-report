@@ -5,27 +5,44 @@ weight: 1
 chapter: false
 pre: " <b> 3.3. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# TÍCH HỢP IAM COMPUTE ROLES CHO ỨNG DỤNG SERVER-SIDE RENDERING TRÊN AWS AMPLIFY HOSTING
 
-# SESSION POLICIES TRONG AMAZON EKS POD IDENTITY
+Khi xây dựng các ứng dụng Server-Side Rendering như Next.js hoặc Nuxt trên AWS, một trong những vấn đề thường gặp là làm sao để ứng dụng có thể truy cập các dịch vụ AWS một cách an toàn mà không phải lưu trữ Access Key hoặc Secret Key trong mã nguồn hay biến môi trường.
 
-Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+Để giải quyết nhu cầu này, AWS Amplify Hosting đã giới thiệu tính năng IAM Compute Roles dành cho các ứng dụng SSR.
 
-Các điểm chính cần nắm:
+![Luồng IAM Compute Roles cho ứng dụng SSR trên AWS Amplify Hosting](/images/3-BlogsPosted/3.3-Blog3/blog-3.jpg)
 
-* Session policy là một IAM policy inline được chỉ định khi tạo hoặc cập nhật Pod Identity association.
-* Quyền hiệu quả = intersection (giao) giữa permissions của IAM role và session policy → session policy chỉ có thể thu hẹp, không thể mở rộng quyền.
-* Giúp tránh tình trạng over-permissioning khi reuse chung một IAM role cho nhiều workloads có nhu cầu khác nhau.
-* Hỗ trợ cả same-account và cross-account (qua IAM role chaining).
-* Giảm đáng kể số lượng IAM roles cần quản lý, tránh chạm giới hạn quota IAM trong cluster lớn.
-* Cấu hình dễ dàng qua AWS Management Console, AWS CLI hoặc AWS SDK khi tạo association giữa Kubernetes ServiceAccount và IAM role.
+## 1. IAM Compute Roles là gì?
 
-Tính năng này đặc biệt hữu ích khi bạn có nhiều ứng dụng chạy trên cùng một IAM role nhưng cần giới hạn quyền khác nhau (ví dụ: một pod chỉ đọc S3 bucket cụ thể, pod khác chỉ gọi một số API nhất định).
+IAM Compute Roles cho phép gắn trực tiếp IAM Role vào môi trường thực thi của ứng dụng SSR trên Amplify Hosting.
 
-...Hình ảnh...
+Nhờ đó, mã nguồn phía server có thể truy cập các dịch vụ AWS thông qua cơ chế cấp quyền tạm thời tương tự như EC2 Instance Profile hoặc Lambda Execution Role.
 
-...Link...
+## 2. Các trường hợp sử dụng phổ biến
 
-...Hướng dẫn...
+* Truy cập AWS Secrets Manager hoặc Systems Manager Parameter Store để lấy thông tin cấu hình.
+* Kết nối đến Amazon RDS hoặc Amazon DynamoDB mà không cần lưu credentials trong ứng dụng.
+* Gọi API đến các dịch vụ AWS từ phía server.
+* Thiết lập quyền truy cập khác nhau giữa các môi trường development, staging và production.
+
+## 3. Ví dụ triển khai
+
+Trong bài hướng dẫn của AWS, ứng dụng Next.js được cấu hình để truy cập một Amazon S3 bucket ở chế độ private.
+
+Quy trình gồm:
+
+1. Tạo IAM Role với quyền đọc dữ liệu từ S3.
+2. Cấp quyền để Amplify Hosting sử dụng role này.
+3. Triển khai ứng dụng Next.js lên Amplify.
+4. Sử dụng AWS SDK trong API Route để truy cập dữ liệu từ S3.
+
+Nhờ IAM Compute Roles, ứng dụng có thể xác thực với AWS mà không cần lưu Access Key hoặc Secret Key trong mã nguồn.
+
+## 4. Kết luận
+
+IAM Compute Roles giúp đơn giản hóa việc quản lý quyền truy cập AWS cho các ứng dụng SSR trên Amplify Hosting. Đây là một tính năng hữu ích cho các hệ thống cần truy cập tài nguyên AWS từ phía server nhưng vẫn muốn đảm bảo các nguyên tắc bảo mật và quản trị quyền truy cập.
+
+📖 **Bài viết gốc:** [aws.amazon.com/blogs/mobile/iam-compute-roles-for-server-side-rendering-with-aws-amplify-hosting](https://aws.amazon.com/blogs/mobile/iam-compute-roles-for-server-side-rendering-with-aws-amplify-hosting/)
+
+🔗 **Link bài đăng trong nhóm FCJ:** [facebook.com/share/p/1PEvrCKJsS](https://www.facebook.com/share/p/1PEvrCKJsS/)

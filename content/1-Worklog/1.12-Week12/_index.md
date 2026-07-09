@@ -8,24 +8,22 @@ pre: " <b> 1.12. </b> "
 
 ### Week 12 Objectives:
 
-* Finalize the CloudDoc frontend before the demo.
-* Review the architecture diagram completed in week 10 for the presentation.
-* Summarize my personal contribution to the group project.
+* Support team members in testing and completing the CloudDoc project.
+* Summarize the internship process and my personal contribution.
+* Complete the internship report.
 
 ### Tasks completed this week:
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ---- | ---------- | --------------- | ------------------ |
-| Mon | - Reviewed the frontend screens I had implemented <br> - Checked display issues, layout alignment, and basic responsive behavior | 06/07/2026 | 06/07/2026 |  |
-| Tue | - Updated the UI based on team feedback <br> - Completed missing display parts on the upload page and document list page | 07/07/2026 | 07/07/2026 |  |
-| Wed | - Reviewed the CloudDoc architecture diagram completed in week 10 <br> - Exported the diagram for slides/report content | 08/07/2026 | 08/07/2026 |  |
-| Thu | - Prepared demo content for the frontend and architecture diagram parts <br> - Summarized my personal role and contribution in the group | 09/07/2026 | 09/07/2026 |  |
-| Fri | - Summarized the 12-week internship <br> - Completed the personal contribution section in the report | 10/07/2026 | 10/07/2026 |  |
+| Mon | - Helped the team test the CloudDoc project flow <br> - Recorded issues and items that still required completion | 06/07/2026 | 06/07/2026 |  |
+| Tue | - Coordinated with the backend/cloud team to verify data and functions after integration <br> - Helped resolve interface-related issues | 07/07/2026 | 07/07/2026 |  |
+| Wed | - Summarized the work completed during the 12-week internship <br> - Organized images and materials for the report | 08/07/2026 | 08/07/2026 |  |
+| Thu | - Completed the CloudDoc project description and my personal role <br> - Added achieved results and acquired skills | 09/07/2026 | 09/07/2026 |  |
+| Fri | - Reviewed the report content and formatting <br> - Completed the internship report and supported the team's final checks | 10/07/2026 | 10/07/2026 |  |
 
 ### Week 12 Achievements:
 
-* Finalized the CloudDoc frontend for the demo.
-* Used the architecture diagram completed in week 10 for the report and slides.
-* Explained my personal role in the project: frontend and architecture diagram.
-* Identified frontend improvements to continue after the demo.
-* Completed the personal summary section of the internship report.
+* Supported the team in testing and completing the CloudDoc project.
+* Summarized the internship process and my personal contribution.
+* Completed the content and formatting of the internship report.

@@ -8,24 +8,23 @@ pre: " <b> 1.10. </b> "
 
 ### Mục tiêu tuần 10:
 
-* Khởi động dự án nhóm CloudDoc.
-* Xác định phạm vi công việc cá nhân: phụ trách phần frontend và hoàn thiện sơ đồ kiến trúc.
-* Phân tích các màn hình cần có và phác thảo luồng giao diện ban đầu.
+* Triển khai các màn hình frontend chính của CloudDoc.
+* Kiểm tra giao diện và luồng thao tác bằng dữ liệu mẫu.
+* Hoàn thành frontend trong tuần 10 để chuẩn bị bàn giao.
 
 ### Các công việc đã thực hiện trong tuần này:
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Họp nhóm để thống nhất chủ đề CloudDoc <br> - Xác định vai trò cá nhân: frontend và sơ đồ kiến trúc | 22/06/2026 | 22/06/2026 |  |
-| 3 | - Phân tích các màn hình frontend cần có: trang chính, upload tài liệu, danh sách tài liệu và tìm kiếm <br> - Ghi chú luồng thao tác cơ bản của người dùng | 23/06/2026 | 23/06/2026 |  |
-| 4 | - Vẽ sơ đồ kiến trúc CloudDoc bằng draw.io <br> - Thể hiện các thành phần chính: frontend, backend/API, nơi lưu file và database | 24/06/2026 | 24/06/2026 |  |
-| 5 | - Hoàn thiện sơ đồ kiến trúc CloudDoc sau khi trao đổi với nhóm <br> - Chốt luồng kết nối giữa frontend, backend/API, lưu trữ file và database | 25/06/2026 | 25/06/2026 |  |
-| 6 | - Phác thảo bố cục giao diện và các component frontend cần triển khai <br> - Rà soát lại ghi chú và chuẩn bị cho tuần triển khai frontend | 26/06/2026 | 26/06/2026 |  |
+| 2 | - Thiết lập môi trường frontend cho dự án CloudDoc <br> - Chuẩn bị cấu trúc thư mục, layout chính và các component ban đầu | 22/06/2026 | 22/06/2026 |  |
+| 3 | - Xây dựng trang chính và giao diện upload tài liệu <br> - Bổ sung form chọn file, nút upload và trạng thái xử lý | 23/06/2026 | 23/06/2026 |  |
+| 4 | - Xây dựng giao diện danh sách tài liệu <br> - Bổ sung chức năng tìm kiếm và lọc tài liệu ở mức cơ bản | 24/06/2026 | 24/06/2026 |  |
+| 5 | - Kết nối các màn hình và kiểm tra luồng thao tác bằng dữ liệu mẫu <br> - Chỉnh sửa layout và khả năng hiển thị trên các kích thước màn hình cơ bản | 25/06/2026 | 25/06/2026 |  |
+| 6 | - Hoàn thiện các màn hình và component frontend <br> - Kiểm tra lại giao diện, xử lý các lỗi hiển thị và chuẩn bị bàn giao | 26/06/2026 | 26/06/2026 |  |
 
 ### Kết quả đạt được tuần 10:
 
-* Xác định được phạm vi và mục tiêu chính của dự án CloudDoc.
-* Xác định rõ vai trò cá nhân trong nhóm là phụ trách frontend và sơ đồ kiến trúc.
-* Hoàn thiện được sơ đồ kiến trúc CloudDoc trong tuần 10.
-* Xác định được các màn hình và component frontend cần triển khai.
-* Nắm được luồng thao tác cơ bản của người dùng trên hệ thống.
+* Hoàn thành các màn hình frontend chính của CloudDoc trong tuần 10.
+* Xây dựng được giao diện upload, danh sách và tìm kiếm tài liệu cơ bản.
+* Kiểm tra được luồng giao diện bằng dữ liệu mẫu.
+* Hoàn thiện frontend ở mức sẵn sàng bàn giao cho nhóm backend/cloud tích hợp.

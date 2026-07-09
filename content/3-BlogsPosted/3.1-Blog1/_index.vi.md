@@ -5,27 +5,52 @@ weight: 1
 chapter: false
 pre: " <b> 3.1. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# XÂY DỰNG ỨNG DỤNG OFFLINE-FIRST VỚI AWS AMPLIFY, TANSTACK QUERY, APPSYNC VÀ MONGODB ATLAS
 
-# SESSION POLICIES TRONG AMAZON EKS POD IDENTITY
+Khi sử dụng các ứng dụng web hoặc mobile trong điều kiện kết nối mạng không ổn định, người dùng thường gặp tình trạng dữ liệu tải chậm, thao tác bị gián đoạn hoặc thậm chí mất dữ liệu khi offline. Để mang lại trải nghiệm liền mạch hơn, nhiều hệ thống hiện nay áp dụng mô hình Offline-First kết hợp với Optimistic UI.
 
-Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+Một bài blog gần đây từ AWS giới thiệu cách xây dựng kiến trúc này bằng cách kết hợp AWS Amplify, AWS AppSync, TanStack Query và MongoDB Atlas.
 
-Các điểm chính cần nắm:
+![Kiến trúc Offline-First với AWS Amplify, TanStack Query, AppSync và MongoDB Atlas](/images/3-BlogsPosted/3.1-Blog1/blog-1.png)
 
-* Session policy là một IAM policy inline được chỉ định khi tạo hoặc cập nhật Pod Identity association.
-* Quyền hiệu quả = intersection (giao) giữa permissions của IAM role và session policy → session policy chỉ có thể thu hẹp, không thể mở rộng quyền.
-* Giúp tránh tình trạng over-permissioning khi reuse chung một IAM role cho nhiều workloads có nhu cầu khác nhau.
-* Hỗ trợ cả same-account và cross-account (qua IAM role chaining).
-* Giảm đáng kể số lượng IAM roles cần quản lý, tránh chạm giới hạn quota IAM trong cluster lớn.
-* Cấu hình dễ dàng qua AWS Management Console, AWS CLI hoặc AWS SDK khi tạo association giữa Kubernetes ServiceAccount và IAM role.
+## 1. Tổng quan giải pháp
 
-Tính năng này đặc biệt hữu ích khi bạn có nhiều ứng dụng chạy trên cùng một IAM role nhưng cần giới hạn quyền khác nhau (ví dụ: một pod chỉ đọc S3 bucket cụ thể, pod khác chỉ gọi một số API nhất định).
+Kiến trúc sử dụng:
 
-...Hình ảnh...
+* AWS Amplify Gen 2 để xây dựng và triển khai ứng dụng full-stack.
+* AWS AppSync cung cấp GraphQL API cho việc đồng bộ dữ liệu.
+* TanStack Query quản lý dữ liệu phía client, hỗ trợ caching và optimistic updates.
+* MongoDB Atlas đóng vai trò cơ sở dữ liệu backend.
 
-...Link...
+Ngoài ra, hệ thống còn sử dụng AWS Lambda cho xử lý serverless và Amazon Cognito cho xác thực người dùng.
 
-...Hướng dẫn...
+## 2. Optimistic UI hoạt động như thế nào?
+
+Thay vì chờ phản hồi từ server rồi mới cập nhật giao diện, Optimistic UI cho phép ứng dụng hiển thị kết quả dự kiến ngay sau khi người dùng thực hiện thao tác.
+
+Ví dụ khi tạo một công việc mới trong ứng dụng To-do:
+
+* Giao diện sẽ hiển thị công việc đó ngay lập tức.
+* Request được gửi đến AppSync để lưu dữ liệu.
+* Nếu request thành công, dữ liệu được đồng bộ như bình thường.
+* Nếu xảy ra lỗi hoặc mất kết nối, trạng thái trước đó sẽ được khôi phục thông qua cơ chế rollback.
+
+Cách tiếp cận này giúp ứng dụng phản hồi nhanh hơn và giảm cảm giác chờ đợi cho người dùng.
+
+## 3. Luồng xử lý
+
+1. Người dùng thực hiện thao tác tạo dữ liệu.
+2. TanStack Query cập nhật cache cục bộ và hiển thị kết quả ngay trên giao diện.
+3. Request được gửi đến AppSync thông qua GraphQL.
+4. AppSync xử lý và lưu dữ liệu xuống MongoDB Atlas.
+5. Nếu xảy ra lỗi, dữ liệu cache được phục hồi về trạng thái trước đó.
+
+Trong ví dụ của AWS, cơ chế xử lý xung đột được triển khai theo nguyên tắc First-Come, First-Served.
+
+## 4. Kết luận
+
+Offline-First và Optimistic UI đang trở thành những kỹ thuật quan trọng để cải thiện trải nghiệm người dùng trong các ứng dụng hiện đại. Với Amplify, AppSync và TanStack Query, việc triển khai các tính năng này trở nên đơn giản hơn mà vẫn đảm bảo khả năng đồng bộ dữ liệu khi kết nối mạng được khôi phục.
+
+📖 **Bài viết gốc:** [aws.amazon.com/blogs/mobile/offline-caching-with-aws-amplify-tanstack-appsync-and-mongodb-atlas](https://aws.amazon.com/blogs/mobile/offline-caching-with-aws-amplify-tanstack-appsync-and-mongodb-atlas/)
+
+🔗 **Link bài đăng trong nhóm FCJ:** [facebook.com/groups/awsstudygroupfcj/permalink/2190116435086650](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2190116435086650/)
