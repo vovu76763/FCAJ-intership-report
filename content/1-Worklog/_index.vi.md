@@ -32,4 +32,4 @@ Trong phần Worklog, tôi ghi lại quá trình học tập và thực hành tr
 
 **Tuần 11:** [Bàn giao frontend và hỗ trợ nhóm backend/cloud tích hợp](1.11-week11/)
 
-**Tuần 12:** [Hỗ trợ nhóm và hoàn thiện báo cáo thực tập](1.12-week12/)
+**Tuần 12:** [Hoàn thành dự án và làm báo cáo thực tập](1.12-week12/)

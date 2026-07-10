@@ -32,4 +32,4 @@ In this Worklog section, I record my learning and hands-on practice during the 1
 
 **Week 11:** [Hand off the frontend and support backend/cloud integration](1.11-week11/)
 
-**Week 12:** [Support the team and complete the internship report](1.12-week12/)
+**Week 12:** [Complete the project and prepare the internship report](1.12-week12/)

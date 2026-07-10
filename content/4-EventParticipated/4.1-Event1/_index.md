@@ -6,117 +6,94 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Summary Report: "FCAJ - HUTECH Kickoff"
 
-### Event Objectives
+### Event Objectives & Overview
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+**FCAJ - HUTECH Kickoff** was an opening event that helped students understand the First Cloud AI Journey community, the learning direction for Cloud/AI, and how to participate in upcoming hands-on activities. The event introduced not only the program itself, but also the importance of learning through workshops, practical projects, and self-study.
 
-### Speakers
+### Event Information
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Format:** Offline
+- **Location:** HUTECH University, E3 campus
+- **Role:** Attendee
 
-### Key Highlights
+### Main Event Content
 
-#### Identifying the drawbacks of legacy application architecture
+#### Introduction to the FCAJ community
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+The organizers introduced FCAJ as an academic community for students interested in technology, especially AWS Cloud, AI, DevOps, and practical product development. Through the community, students can join workshops, discuss with mentors, work in teams, and learn from peers with similar goals.
 
-#### Transitioning to modern application architecture – Microservices
+Key points included:
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+- FCAJ's goals and activity direction
+- How students can join training sessions, workshops, and seminars
+- The importance of taking notes, practicing, and sharing knowledge
+- The role of community support in learning Cloud and AI
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+#### First Cloud Journey direction
 
-#### Domain-Driven Design (DDD)
+The event helped me understand that learning AWS should start from the fundamentals, then gradually move into hands-on practice with core services. Instead of trying to learn too many services at once, beginners should understand what problem each service solves and when it should be used.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+Core services mentioned included:
 
-#### Event-Driven Architecture
+- **IAM:** Identity management, permissions, and the least privilege principle
+- **S3:** Object storage, static website hosting, and data management
+- **EC2:** Virtual servers for basic application deployment
+- **VPC:** Private networking, subnets, route tables, and security groups
+- **RDS/DynamoDB:** Relational or NoSQL data storage
+- **CloudWatch:** Logs, metrics, and system monitoring
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+#### Sharing from speakers and the community
 
-#### Compute Evolution
+The sharing sessions showed that classroom knowledge is an important foundation, but students need more hands-on practice to prepare for real working environments. Joining a community, building projects, and documenting the learning process can help reduce the gap between theory and practical requirements.
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+### Knowledge and Skills Gained
 
-#### Amazon Q Developer
+#### Technical skills
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+- Better understanding of how a web application works from frontend and backend to database
+- Understanding the role of basic AWS services in a cloud system
+- Awareness of account security, IAM, and cost control
+- Familiarity with architecture thinking before project implementation
 
-### Key Takeaways
+#### Soft skills
 
-#### Design Mindset
+- Being proactive in self-learning and asking questions
+- Taking notes during the learning process for review and sharing
+- Working in teams, exchanging ideas, and receiving feedback
+- Managing time when joining workshops or practical projects
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+### Value of Joining the Community
 
-#### Technical Architecture
+Through the event, I realized that community support is very important for beginners learning cloud. When studying alone, students can easily feel overwhelmed because AWS has many services and concepts. In a community, learners can follow a clearer roadmap, ask questions when they get stuck, and learn from others' experience.
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+For me, FCAJ is an opportunity to:
 
-#### Modernization Strategy
+- Build a clearer AWS learning direction
+- Join workshops and practical projects
+- Improve teamwork skills
+- Expand my view of career paths in Cloud/AI
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+### Connection to the Internship and CloudDoc Project
 
-### Applying to Work
+After the event, I had a clearer direction for my internship and the CloudDoc group project. As the person responsible for the frontend and supporting the architecture diagram, understanding basic cloud components helped me explain the system flow more clearly, especially the relationship between the user interface, backend, data storage, and AWS infrastructure.
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+The event also reminded me to pay more attention to:
 
-### Event Experience
+- Designing architecture diagrams that are easy for the team to understand
+- How the frontend interacts with backend APIs
+- The importance of security, permissions, and cost control when deploying on AWS
+- Documenting the work process for the internship report
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+### Personal Reflection
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+After attending **FCAJ - HUTECH Kickoff**, I realized that learning technology should not stop at reading theory. Learners need to participate in practical activities, try implementing systems, encounter errors, fix them, and record the lessons learned. For cloud in particular, learning step by step is much more effective than trying to study too many services at the same time.
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+The event gave me more motivation to continue joining FCAJ activities, complete the internship weeks well, and apply what I learned to the CloudDoc project.
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+### Event Photos
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+<img src="../../images/4-EventParticipated/event-1.jpg" alt="Photo from the FCAJ - HUTECH Kickoff event" style="max-width: 90%; height: auto;">
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+> Overall, the FCAJ - HUTECH Kickoff event gave me a clearer direction for my Cloud/AI learning journey and emphasized the value of practice, community, and real projects in developing technical skills.
