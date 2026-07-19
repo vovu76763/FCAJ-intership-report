@@ -38,3 +38,4 @@ The final outcome is a system where users can upload documents successfully, adm
 5. [Client integration and observability](5.5-policy/)
 6. [Update data](5.6-update-data/)
 7. [Clean resources](5.7-clean-resources/)
+8. [Demo video](5.8-demo/)
